@@ -2,6 +2,7 @@
   "expo": {
     "name": "AwesomeProject",
     "slug": "AwesomeProject",
+    "scheme": "AwesomeProject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +26,8 @@
       "package": "com.emmanueldeo.AwesomeProject"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "extra": {
       "eas": {
@@ -33,7 +35,8 @@
       }
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      "expo-router"
     ]
   }
 }
