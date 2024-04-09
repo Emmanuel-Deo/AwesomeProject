@@ -7,8 +7,8 @@ import { Stack } from 'expo-router';
 const DayDetailsScreen = () => {
     return (
         <View style={styles.container}>
-            <Stack.Screen options={{title : 'Day 1'}}/>
-            <Text style={{fontFamily:'AmaticBold', fontSize: 100}}>Animated Splashscreen</Text>
+            <Stack.Screen options={{title : 'Day 3'}}/>
+            <Text style={{fontFamily:'AmaticBold', fontSize: 100}}>Authentication Workflow</Text>
         </View>
     );
 };

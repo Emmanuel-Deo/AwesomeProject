@@ -1,12 +1,14 @@
 //import liraries
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { Stack } from 'expo-router';
 
 // create a component
 const DayDetailsScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>Day2</Text>
+            <Stack.Screen options={{title : 'Day 2'}}/>
+            <Text style={{fontFamily:'AmaticBold', fontSize: 100}}>Onboarding Screen</Text>
         </View>
     );
 };
